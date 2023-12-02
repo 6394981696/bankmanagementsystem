@@ -34,9 +34,9 @@ function BankAccount(accountNumber, name, type, balance) {
   }
   
   
-  let acc1 = new BankAccount(1, "John Doe", "Saving", 1000);
-  let acc2 = new BankAccount(2, "Jane Smith", "Checking", 500);
-  let acc3 = new BankAccount(3, "Bob Johnson", "Saving", 1500);
+  let acc1 = new BankAccount(12345, "Divya", "Saving", 1000);
+  let acc2 = new BankAccount(2468, "Diya", "Saving", 500);
+  let acc3 = new BankAccount(3690, "Boby", "Saving", 1500);
   
   
   acc1.deposit(500);
